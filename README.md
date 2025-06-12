@@ -72,7 +72,7 @@ Untuk menjalankan proyek ini di lingkungan lokal Anda, ikuti langkah-langkah ber
 
 1.  **Clone repositori ini:**
     ```bash
-    git clone [<URL_REPOSITORI_ANDA>](https://github.com/Devit-Simanjuntak/machine-learning-wastewiseweb).git
+    git clone https://github.com/Devit-Simanjuntak/machine-learning-wastewiseweb.git
     cd MachineLearning
     ```
 
