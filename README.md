@@ -17,10 +17,9 @@ Berikut adalah penjelasan singkat mengenai file-file penting dalam repositori in
     * *Notebook* ini berisi proses awal proyek. Tanggung jawab utamanya adalah memuat dataset, melakukan visualisasi data, dan analisis eksplorasi untuk mendapatkan wawasan dari data gambar.
 
 * `ModellingKaggle_v2.ipynb`
-    * Ini adalah *notebook* utama untuk proses pemodelan. Berisi kode untuk pra-pemrosesan data, augmentasi gambar, pembangunan arsitektur CNN, proses training, dan evaluasi performa model. "v2" menandakan bahwa ini mungkin merupakan iterasi kedua atau versi yang telah ditingkatkan dari model sebelumnya.
-
+    * Ini adalah *notebook* utama untuk proses pemodelan. Berisi kode untuk pra-pemrosesan data, augmentasi gambar, pembangunan arsitektur CNN, proses training, dan evaluasi performa model.
 * `model_cnn/`
-    * Direktori ini berisi file-file yang berkaitan dengan model yang telah disimpan.
+    * Direktori ini berisi file-file yang berkaitan dengan model yang telah dikonversi menggunakan TensorFlow.js dan disimpan.
     * **`model.json`**: File ini menyimpan arsitektur dari model CNN yang telah dibangun menggunakan Keras v3.8.0.
 
 ## Arsitektur Model
@@ -73,7 +72,7 @@ Untuk menjalankan proyek ini di lingkungan lokal Anda, ikuti langkah-langkah ber
 
 1.  **Clone repositori ini:**
     ```bash
-    git clone <URL_REPOSITORI_ANDA>
+    git clone [<URL_REPOSITORI_ANDA>](https://github.com/Devit-Simanjuntak/machine-learning-wastewiseweb).git
     cd MachineLearning
     ```
 
@@ -91,7 +90,6 @@ Untuk menjalankan proyek ini di lingkungan lokal Anda, ikuti langkah-langkah ber
 ## Cara Menjalankan
 
 1.  **Unduh Dataset**
-    * Proyek ini kemungkinan besar menggunakan dataset dari platform Kaggle. Anda perlu mengunduh datanya secara manual dan meletakkannya di direktori yang sesuai seperti yang dirujuk dalam *notebook*.
     * **[Garbage Classification Dataset](https://www.kaggle.com/datasets/mostafaabla/garbage-classification)**
     * **[Garbage Classification Dataset Balanced](https://drive.google.com/file/d/1jqN5HK-9S2mLkSllhPjc6uQ1ijg7Lcc_/view?usp=drive_link)**
 
